@@ -1,0 +1,73 @@
+body {
+	background-color: #0a0e16;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+.project-header {
+	align-items: center;
+	background-image: url('space-bg.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+}
+
+.project-title {
+	font-size: 36px;
+	margin: 0;
+	padding: 0;
+	text-shadow: 2px 2px #000;
+}
+
+.back-button {
+	background-color: #fff;
+	border: none;
+	border-radius: 20px;
+	color: #000;
+	font-size: 16px;
+	padding: 10px 20px;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+.back-button:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+.project-description {
+	background-color: #fff;
+	border-radius: 20px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	margin: 30px;
+	padding: 30px;
+}
+
+.project-description p {
+	margin: 0;
+}
+
+.project-screenshot {
+	display: block;
+	margin: 20px auto;
+	max-width: 100%;
+}
+
+.project-details-title {
+	font-size: 24px;
+	margin: 20px 0 10px;
+	padding: 0;
+}
+
+.project-details-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
