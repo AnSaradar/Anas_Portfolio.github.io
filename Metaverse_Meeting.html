@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Saradar Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <link rel="stylesheet" href="splide-4.1.3\dist\css\splide.min.css">
+        <style>
+             .slider-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     /* Adjust the height as needed */
+    }
+                                  
+            /* Splide slider container */
+            .splide {
+              width: 1000px;
+              height: 500px;
+              overflow: hidden; /* Hide the parts of images that exceed the container */
+            }
+        
+            /* Individual slide items */
+            .splide__slide {
+              width: 1000px;
+              height: 500px;
+              overflow: hidden; /* Hide the parts of images that exceed the slide item */
+            }
+        
+            /* Style the images within slide items */
+            .splide__slide img { /* Crop and center the image within the slide item */
+              width: 100%;
+              height: 100%;
+            }
+            .splide__arrow {
+              font-size: 20px; /* Adjust the arrow size as needed */
+            }
+        
+            /* Style the dots (pagination) */
+            .splide__pagination {
+              font-size: 20px; /* Adjust the dot size as needed */
+            }
+            .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            }
+
+            .back-button:hover {
+            background-color: #ddd;
+            }
+
+            .back-button i {
+            font-size: 18px;
+            }
+          </style>
+	</head>
+	<body class="is-preload">
+
+  	<!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+
+		
+		<a href="index.html" class="back-button">
+			<i class="fas fa-arrow-left"></i>
+		  </a>
+					
+
+          
+				
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<span class="date">2023</span>
+                  					<img src="images\Graduation_Main_Image.PNG" style="width: 100%; height: 5%;">
+									<h2><b>MVM</b><br>Metaverse Meeting Application</h2>
+									<h3>Introduction</h3>
+                                      MVM is a fun communication app built to help the user communicate with friends , by choosing avatars , the core functionality built based on computer vision methods and deep learning such as Facial landmarks tracking & Facial attribute extraction
+                                    
+                                     
+                                  <body>
+                                    <h3>DEMO</h3>
+                                    <video width="640" height="360" controls>
+                                      <source src="videos\Graduation_Project.mp4" type="video/mp4">
+                                      Your browser does not support the video tag.
+                                    </video>
+                                    <h3>Slide-Show</h3>
+                                    <p>
+                                        <div class="slider-container">
+                                      <div class="splide">
+                                        <div class="splide__track">
+                                          <ul class="splide__list">
+                                            <li class="splide__slide"><img src="images\MVM Presentation\Slide1.PNG" alt="Image 1"></li>
+                                            <li class="splide__slide"><img src="images\MVM Presentation\Slide2.PNG" alt="Image 2"></li>
+                                            <li class="splide__slide"><img src="images\MVM Presentation\Slide3.PNG" alt="Image 3"></li>
+                                            <li class="splide__slide"><img src="images\MVM Presentation\Slide5.PNG" alt="Image 4"></li>
+                                            <li class="splide__slide"><img src="images\MVM Presentation\Slide6.PNG" alt="Image 5"></li>
+                                            <li class="splide__slide"><img src="images\MVM Presentation\Slide7.PNG" alt="Image 6"></li>
+                                            <li class="splide__slide"><img src="images\MVM Presentation\Slide8.PNG" alt="Image 7"></li>
+                                            <li class="splide__slide"><img src="images\MVM Presentation\Slide9.PNG" alt="Image 8"></li>
+                                            <li class="splide__slide"><img src="images\MVM Presentation\Slide10.PNG" alt="Image 9"></li>
+                                            <li class="splide__slide"><img src="images\MVM Presentation\Slide11.PNG" alt="Image 10"></li>
+                                            <li class="splide__slide"><img src="images\MVM Presentation\Slide12.PNG" alt="Image 11"></li>
+                                            <li class="splide__slide"><img src="images\MVM Presentation\Slide13.PNG" alt="Image 12"></li>
+                                            <li class="splide__slide"><img src="images\MVM Presentation\Slide14.PNG" alt="Image 14"></li>
+                                            <li class="splide__slide"><img src="images\MVM Presentation\Slide15.PNG" alt="Image 15"></li>
+                                            <li class="splide__slide"><img src="images\MVM Presentation\Slide16.PNG" alt="Image 16"></li>
+                                            <li class="splide__slide"><img src="images\MVM Presentation\Slide17.PNG" alt="Image 17"></li>
+                                            <li class="splide__slide"><img src="images\MVM Presentation\Slide18.PNG" alt="Image 18"></li>
+                                            
+
+                                          </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    </p>
+                                  
+                                    <!-- Include Splide JS library -->
+                                    <script src="splide-4.1.3\dist\js\splide.min.js"></script>
+                                  
+                                    <script>
+                                      document.addEventListener('DOMContentLoaded', function () {
+                                        new Splide('.splide', {
+                                          type: 'slide',
+                                          perPage: 1,
+                                        }).mount();
+                                      });
+                                    </script>
+                                    
+								</header>
+								
+							
+							</article>
+
+						
+			
+
+						
+					</div>
+
+				
+					
+
+			
+    </div>
+    
+		<!-- Scripts -->
+            <script src="script.js"></script>
+            <script src="splide-4.1.3\dist\js\splide.min.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="splide-4.1.3\dist\js\splide.min.js"></script>
+
+	</body>
+</html>
